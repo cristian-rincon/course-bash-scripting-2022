@@ -1,6 +1,6 @@
 #!/bin/bash
 # Program:
-#   This program allows you to review how to pass arguments in bash.
+#   This program allows you to review how to substitute commands in bash.
 # Path: 1_intro/5_commands_substitution.sh
 # Author:
 #  Cristian Rincón
