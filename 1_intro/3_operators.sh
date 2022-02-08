@@ -6,6 +6,12 @@
 #  Cristian Rincón
 #
 
+# How to run this script:
+# ./1_intro/3_operators.sh
+# If you want to use column split, you should use the following command:
+# ./1_intro/3_operators.sh | column -t -s $'\t'
+
+
 num_1=10
 num_2=5
 
