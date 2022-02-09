@@ -2,13 +2,31 @@
 ## Table of contents
 
 - [curso-bash-scripting-2022](#curso-bash-scripting-2022)
-  - [Class 10: Debugging in bash](#class-10-debugging-in-bash)
+  - [Project Structure](#project-structure)
+  - [Class Notes](#class-notes)
+    - [Class 10: Debugging in bash](#class-10-debugging-in-bash)
 
 # curso-bash-scripting-2022
 
 This is a repository with the exercises for the course [Bash Scripting](https://platzi.com/cursos/bash-shell/)
 
-## Class 10: Debugging in bash
+## Project Structure
+
+```console
+.
+|-- 1_intro
+|   |-- 1_first_script.sh
+|   |-- 2_variables.sh
+|   |-- 3_operators.sh
+|   |-- 4_arguments.sh
+|   `-- 5_commands_substitution.sh
+|-- LICENSE
+`-- README.md
+```
+
+## Class Notes
+
+### Class 10: Debugging in bash
 
 ```bash
 # bash -x ./1_intro/5_commands_substitution.sh
