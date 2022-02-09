@@ -1,14 +1,14 @@
+# curso-bash-scripting-2022
+
+This is a repository with the exercises for the course [Bash Scripting](https://platzi.com/cursos/bash-shell/)
 
 ## Table of contents
 
 - [curso-bash-scripting-2022](#curso-bash-scripting-2022)
+  - [Table of contents](#table-of-contents)
   - [Project Structure](#project-structure)
   - [Class Notes](#class-notes)
     - [Class 10: Debugging in bash](#class-10-debugging-in-bash)
-
-# curso-bash-scripting-2022
-
-This is a repository with the exercises for the course [Bash Scripting](https://platzi.com/cursos/bash-shell/)
 
 ## Project Structure
 
