@@ -19,9 +19,20 @@ This is a repository with the exercises for [Bash Scripting](https://platzi.com/
 |   |-- 2_variables.sh
 |   |-- 3_operators.sh
 |   |-- 4_arguments.sh
-|   `-- 5_commands_substitution.sh
+|   |-- 5_commands_substitution.sh
+|   `-- 6_challenge_1-utility_host.sh
+|-- 2_interactive_scripts
+|   |-- 1_read_reply.sh
+|   |-- 2_read_directly.sh
+|   |-- 3_regular_expressions.sh
+|   |-- 4_validate_information.sh
+|   |-- 5_check_options.sh
+|   |-- 6_download_files.sh
+|   `-- 7_challenge_2-basic-info.sh
+|-- 3_conditionals
+|   |-- 1_if_else.sh
+|   `-- 2_challenge_3-conditionals.sh
 |-- LICENSE
-`-- README.md
 ```
 
 ## Class Notes
