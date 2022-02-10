@@ -9,6 +9,8 @@ This is a repository with the exercises for [Bash Scripting](https://platzi.com/
   - [Project Structure](#project-structure)
   - [Class Notes](#class-notes)
     - [Class 10: Debugging in bash](#class-10-debugging-in-bash)
+      - [First way to debug](#first-way-to-debug)
+      - [Second way to debug](#second-way-to-debug)
 
 ## Project Structure
 
@@ -39,6 +41,8 @@ This is a repository with the exercises for [Bash Scripting](https://platzi.com/
 
 ### Class 10: Debugging in bash
 
+#### First way to debug
+
 ```bash
 # bash -x ./1_intro/5_commands_substitution.sh
 # Lines with + are executed lines, with replaced variables if available
@@ -51,6 +55,8 @@ This is a repository with the exercises for [Bash Scripting](https://platzi.com/
 + echo -e 'The kernel info is:\n Darwin CO0C02FQD0KMD6M 21.1.0 Darwin Kernel Version 21.1.0: Wed Oct 13 17:33:23 PDT 2021; root:xnu-8019.41.5~1/RELEASE_X86_64 x86_64'
 
 ```
+
+#### Second way to debug
 
 ```bash
 
