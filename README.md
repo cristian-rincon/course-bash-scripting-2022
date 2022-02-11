@@ -33,8 +33,19 @@ This is a repository with the exercises for [Bash Scripting](https://platzi.com/
 |   `-- 7_challenge_2-basic-info.sh
 |-- 3_conditionals
 |   |-- 1_if_else.sh
-|   `-- 2_challenge_3-conditionals.sh
+|   |-- 2_challenge_3-conditionals.sh
+|   |-- 3_nested_if_statements.sh
+|   |-- 4_conditional_expressions.sh
+|   `-- 5_case_sentences.sh
+|-- 4_iterators
+|   |-- 1_arrays.sh
+|   |-- 2_for_loops.sh
+|   |-- 3_while_loops.sh
+|   |-- 4_nested_for_loops.sh
+|   |-- 5_break_n_continue.sh
+|   `-- 6_options_menu.sh
 |-- LICENSE
+`-- README.md
 ```
 
 ## Class Notes
