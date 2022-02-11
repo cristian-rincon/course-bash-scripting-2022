@@ -1,40 +1,51 @@
 #!/bin/bash
 #
 # Program:
-#    This is an example of how to use arrays.
+#    This is an example of how to use the for loop.
+
 
 numbers=(1 2 3 4 5 6 7 8 9 10)
-strings=(One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten)
-ranges=({1..10} {A..Z})
 
-# Print the arrays.
-echo -e "\nPrint the arrays: \n"
-echo -e "numbers: ${numbers[*]}"
-echo -e "strings: ${strings[*]}"
-echo -e "ranges: ${ranges[*]}"
+# Print the array
 
-# Print the length of the arrays.
-echo -e "\nPrint the length of the arrays: \n"
-echo -e "numbers: ${#numbers[*]}"
-echo -e "strings: ${#strings[*]}"
-echo -e "ranges: ${#ranges[*]}"
+echo -e "\nPrint the array: \n"
+for number in ${numbers[*]}
+do
+    echo $number
+done
 
-# Print the third element of the arrays.
-echo -e "\nPrint the third element of the arrays: \n"
-echo -e "numbers: ${numbers[2]}"
-echo -e "strings: ${strings[2]}"
-echo -e "ranges: ${ranges[2]}"
+# Print strings
 
+echo -e "\nPrint strings: \n"
 
-# Add or remove elements from the arrays.
-echo -e "\nAdd or remove elements from the arrays: \n"
-numbers[11]=11
-numbers[12]=12
-numbers[13]=13 
+for string in "Hello" "World"
+do
+    echo $string
+done
 
-strings[11]=Eleven
-strings[12]=Twelve
-strings[13]=Thirteen
+# Iterate over files
 
-echo -e "numbers: ${numbers[*]}"
-echo -e "strings: ${strings[*]}"
+echo -e "\nIterate over files: \n"
+
+for file in *
+do
+    echo $file
+done
+
+# Iterate over commands
+
+echo -e "\nIterate over commands: \n"
+
+for file in $(ls) 
+do
+    echo $file
+done
+
+# Iterate using classic for loop
+
+echo -e "\nIterate using classic for loop: \n"
+
+for (( i=0; i<5; i++ ))
+do
+    echo $i
+done
