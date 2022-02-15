@@ -1,17 +1,16 @@
 #!/bin/bash
 #
 # Program:
-#    This is an example of how to package a program with password.
+#    This is an example of how to transfer a file using rsync.
 
 
 
-echo "Packaging a program"
+echo "Transferring a file using rsync"
 
-mkdir -p 6_packaging/tmp
+read -p "Enter the destination file: " destination_file
+read -p "Enter the username: " username
+read -p "Enter the password: " password
+read -p "Enter the hostname: " hostname
 
-echo "Packaging with ZIP, with password"
-
-zip -e 6_packaging/tmp/shell_course_scripts.zip **/*.sh
-
-echo "Clean up"
-rm -rf 6_packaging/tmp
+echo "Transferring the file..."
+rsync -avz $pwd $username@$hostname:$destination_file
